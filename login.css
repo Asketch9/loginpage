@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Inter",sans-serif;   
+    font-optical-sizing: auto;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+body {
+    background-image: url(./loginassets/background2.jpg);
+    background-size: cover;
+    height: 1vh;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top: 250px;
+    justify-content: space-around;
+    align-content: space-between;
+    
+}
+
+.left-box {
+  display: flex;
+  flex-direction: column;
+  line-height: 60px;
+  margin-left: 300px;
+}
+
+
+
+.right-box {
+    display: flex;
+  flex-direction: column;
+  line-height: 60px;
+  margin-right: 300px;
+}
+
+.text1{
+    font-size: 150px;
+    font-weight: bolder;
+    font-style: bold;
+
+}
+
+.text2 {
+    font-size: 120px;
+    font-weight: bolder;
+    font-style: bold;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+
+.text3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+.social-media ul {
+    display: flex;
+    position: relative;
+    margin-top: 200px; 
+    
+}
+
+ul li {
+    list-style: none;
+    opacity: 0.5;
+    cursor: pointer;
+    margin: 10px;
+}
+
+ul li:hover {
+    opacity: 1;
+}
+
+.text4 {
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.log {
+    margin: 30px auto 50px;
+}
+
+.log-ep {
+    opacity: 0.8;
+}
+
+.log-pe {
+    color: black; 
+}
+
+.log2 {
+    margin:30px auto 50px;
+    display: flex;
+    flex-direction: column;
+    
+} 
+
+.logfooter {
+    display: flex;
+    justify-content: center;
+}
+
+.logfooter a {
+    font-size: 25px;
+    margin: 5px;
+}
